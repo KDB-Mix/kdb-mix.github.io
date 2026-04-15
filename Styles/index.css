@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 #hero{
@@ -10,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: Black;
+    background-image: linear-gradient(mediumblue, dodgerblue);
     color: white;
     font-size: 32px;
 }
