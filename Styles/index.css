@@ -12,8 +12,21 @@ body{
     align-items: center;
     background-color: Black;
     color: white;
+    font-size: 32px;
 }
 #ko-fi-button{
     align-self: flex-end;
     margin: 8px 15px;
+}
+
+.changa-one-regular {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.changa-one-regular-italic {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
