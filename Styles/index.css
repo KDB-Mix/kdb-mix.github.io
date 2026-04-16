@@ -15,7 +15,8 @@ body{
     background-size: cover;
 }
 #ko-fi-button{
-    margin: 8px 15px;
+    align-self: flex-end;
+    margin: 20px 15px 0 15px;
 }
 
 .changa-one-regular {
