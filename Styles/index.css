@@ -2,11 +2,11 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    /*background-image: linear-gradient(rebeccapurple, blue, blueviolet);*/`
 }
 
 #hero{
     width: 100%;
-    height: auto;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,7 @@ body{
     background-image: linear-gradient(mediumblue, dodgerblue);
     color: white;
     font-size: 32px;
+    background-size: cover;
 }
 #ko-fi-button{
     align-self: flex-end;
@@ -30,4 +31,20 @@ body{
     font-family: "Changa One", sans-serif;
     font-weight: 400;
     font-style: italic;
+}
+.project{
+    height: 120px;
+    width: 120px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgb(255 255 255 / 0.15);
+    margin: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(255 255 255 / 0.4);
+}
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
