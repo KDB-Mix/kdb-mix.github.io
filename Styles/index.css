@@ -35,9 +35,15 @@ body{
     min-height: 200px;
     height: fit-content;
     width: 40%;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-color: rgb(255 255 255 / 0.15);
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(23px);
+    -webkit-backdrop-filter: blur(23px);
+    box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.5),
+            inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+            inset 0 0 42px 21px rgba(255, 255, 255, .0);
+    overflow: hidden;
     margin: 20px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -52,6 +58,7 @@ body{
     flex-wrap: wrap;
 }
 #bg-video{
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -60,14 +67,18 @@ body{
     width: auto;
     height: auto;
     z-index: -100;
-    object-fit: cover;
-    background-size: cover;
+    background-image: linear-gradient(rebeccapurple, blue, blueviolet);
 }
 .projectlink{
     font-weight: bold;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-color: rgb(255 255 255 / 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(23px);
+    -webkit-backdrop-filter: blur(23px);
+    box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.5),
+            inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+            inset 0 0 42px 21px rgba(255, 255, 255, .0);
     border-radius: 10px;
     border: 3px solid rgb(255 255 255 / 0.5);
     padding: 10px 13px;
