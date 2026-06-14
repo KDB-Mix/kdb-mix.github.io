@@ -1,11 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     text-align: center;
     color: white;
 }
 
-#hero{
+#hero {
     width: 100%;
     padding-bottom: 50px;
     display: flex;
@@ -14,7 +14,7 @@ body{
     font-size: 32px;
     background-size: cover;
 }
-#ko-fi-button{
+#ko-fi-button {
     margin: 0 50px 0 auto;
 }
 
@@ -29,7 +29,7 @@ body{
     font-weight: 400;
     font-style: italic;
 }
-.project{
+.project {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 200px;
@@ -39,17 +39,17 @@ body{
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     box-shadow:
-            0 8px 32px rgba(0, 0, 0, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.5),
-            inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-            inset 0 0 42px 21px rgba(255, 255, 255, .0);
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 42px 21px rgba(255, 255, 255, 0);
     overflow: hidden;
     margin: 20px;
     padding: 10px 20px;
     border-radius: 10px;
     border: 3px solid rgb(255 255 255 / 0.4);
 }
-#projects{
+#projects {
     display: flex;
     margin: 10px auto;
     width: 70%;
@@ -57,7 +57,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
-#bg-video{
+#bg-video {
     display: block;
     position: fixed;
     top: 0;
@@ -73,34 +73,34 @@ body{
     background-position: center;
     filter: blur(5px);
 }
-.projectlink{
+.projectlink {
     font-weight: bold;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(23px);
     -webkit-backdrop-filter: blur(23px);
     box-shadow:
-            0 8px 32px rgba(0, 0, 0, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.5),
-            inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-            inset 0 0 42px 21px rgba(255, 255, 255, .0);
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 42px 21px rgba(255, 255, 255, 0);
     border-radius: 10px;
     border: 3px solid rgb(255 255 255 / 0.5);
     padding: 10px 13px;
-    transition: .3s;
+    transition: 0.3s;
     text-decoration: none;
     color: #1c1c1c;
     grid-row: 3 / 3;
     width: fit-content;
 }
-.projectlink:hover{
+.projectlink:hover {
     transform: scale(1.1);
 }
-.project-title{
+.project-title {
     margin: 0;
     width: fit-content;
     grid-row: 1 / 1;
 }
-.project-desc{
+.project-desc {
     text-align: start;
     font-size: 18px;
     grid-row: 2 / 2;
@@ -109,14 +109,19 @@ body{
     cursor: default;
     opacity: 0.7;
 }
-#top-bar{
+#top-bar {
     display: flex;
     min-width: 100%;
     margin: 20px;
 }
-.logo{
+.logo {
     width: 50px;
     height: 50px;
     margin: 0 20px;
     fill: white;
+}
+#avatar {
+    width: 70%;
+    max-width: 200px;
+    aspect-ratio: 1/1;
 }
