@@ -38,5 +38,13 @@
             "title": "Website",
             "url": "https://kdb-mix.github.io/KNASA-FETCH"
         }
+    },
+    "Fruit Rush": {
+        "icon": "",
+        "desc": "My first pygame game. Catch everything you can",
+        "link": {
+            "title": "Game's Github's link",
+            "url": "https://github.com/KDB-Mix/fruit-rush"
+        }
     }
 }
