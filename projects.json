@@ -1,0 +1,26 @@
+{
+    "Ninja Dodge": {
+        "icon": "",
+        "desc": "The first Google Play game I have ever made.",
+        "link": {
+            "title": "Game's website",
+            "url": "https://www.kmstudios.dev/Ninja-dodge-website/"
+        }
+    },
+    "Bouncy Duck": {
+        "icon": "",
+        "desc": "An open source flappy bird knockoff.",
+        "link": {
+            "title": "Game's website",
+            "url": "https://www.kmstudios.dev/Bouncy-duck-website"
+        }
+    },
+    "Cycle Rush demo": {
+        "icon": "",
+        "desc": "A demo for a mobile game i want to make.",
+        "link": {
+            "title": "Game's Github's link",
+            "url": "https://github.com/KDB-Mix/cycle-rush-demo"
+        }
+    }
+}
