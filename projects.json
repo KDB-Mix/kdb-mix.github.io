@@ -4,7 +4,7 @@
         "desc": "The first Google Play game I have ever made.",
         "link": {
             "title": "Game's website",
-            "url": "https://www.kmstudios.dev/Ninja-dodge-website/"
+            "url": "https://kdb-mix.github.io/Ninja-dodge-website/"
         }
     },
     "Bouncy Duck": {
@@ -12,7 +12,15 @@
         "desc": "An open source flappy bird knockoff.",
         "link": {
             "title": "Game's website",
-            "url": "https://www.kmstudios.dev/Bouncy-duck-website"
+            "url": "https://kdb-mix.github.io/Bouncy-duck-website"
+        }
+    },
+    "Subtective": {
+        "icon": "",
+        "desc": "My first game jam entry.",
+        "link": {
+            "title": "Game's Itch.io link",
+            "url": "https://kdbmix.itch.io/subtective"
         }
     },
     "Cycle Rush demo": {
@@ -21,6 +29,14 @@
         "link": {
             "title": "Game's Github's link",
             "url": "https://github.com/KDB-Mix/cycle-rush-demo"
+        }
+    },
+    "KNASA-FETCH": {
+        "icon": "",
+        "desc": "Get amazed daily by NASA's daily image.",
+        "link": {
+            "title": "Website",
+            "url": "https://kdb-mix.github.io/KNASA-FETCH"
         }
     }
 }
