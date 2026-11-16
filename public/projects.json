@@ -46,5 +46,13 @@
             "title": "Game's Github's link",
             "url": "https://github.com/KDB-Mix/fruit-rush"
         }
+    },
+    "sPLAT": {
+        "icon": "",
+        "desc": "A platformer gam.<br>Every level is unique",
+        "link": {
+            "title": "Game's website",
+            "url": "https://kdb-mix.github.io/sPLAT-Website"
+        }
     }
 }
