@@ -2,6 +2,8 @@
 
 This is my own websites, I put all my projects here with some more things. Enjoy :)
 
+Website: https://kdb-mix.github.io
+
 ___
 If you want to run it locally or edit it, you can install it as a zip file, and run `index.html` to see the main page
 
