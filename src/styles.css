@@ -137,3 +137,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 450px) {
+    .project {
+        width: 80%;
+    }
+}
